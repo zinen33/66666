@@ -1,0 +1,18 @@
+{
+    "name": "La Thị Mỹ Hằng",
+    "ID": "100065172561645",
+    "shield": 3,
+    "coins": 25000,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 0
+        }
+    },
+    "spin": 34,
+    "timeRegister": "12:29:43, 27/5/2022"
+}

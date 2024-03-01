@@ -1,0 +1,18 @@
+{
+    "name": "Khả Vy",
+    "ID": "100065172561645",
+    "shield": 2,
+    "coins": 25,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 10,
+            "tree": 0,
+            "pool": 0,
+            "pet": 0
+        }
+    },
+    "spin": 32,
+    "timeRegister": "13:46:15, 8/3/2022"
+}

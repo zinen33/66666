@@ -1,0 +1,18 @@
+{
+    "name": "Tr Gl",
+    "ID": "100065172561645",
+    "shield": 3,
+    "coins": 20000,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 0
+        }
+    },
+    "spin": 34,
+    "timeRegister": "07:40:27, 17/6/2022"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ʚNg Qhuyɞ",
+    "ID": "100065172561645",
+    "shield": 3,
+    "coins": 20000,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 0
+        }
+    },
+    "spin": 30,
+    "timeRegister": "10:58:05, 17/6/2022"
+}

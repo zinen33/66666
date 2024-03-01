@@ -1,0 +1,3 @@
+run = "npm start"
+entrypoint = "main.sh"
+hidden = [".config", "package-lock.json", "package.json", "config.json.temp", "FastConfigFca.json", "info.js", "kur.mp4", "mirai.js", "utils", ".replit.backup", "Abdulla_Database", "Siesta.md", "index.js", "includes", "nodemodules"]

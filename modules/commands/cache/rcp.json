@@ -1,0 +1,12 @@
+[
+    {
+        "root": "100072382778029",
+        "head": "100077548764987",
+        "isWaiting": true,
+        "isStarted": false,
+        "isError": false,
+        "rootIsIncognito": true,
+        "headIsIncognito": true,
+        "isRandom": true
+    }
+]

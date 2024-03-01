@@ -1,0 +1,18 @@
+ {
+    "name": "Nguyễn Phạm Minh Tuấn",
+    "ID": "100065172561645",
+    "shield": 3,
+    "coins": 5006050,
+    "Island": {
+        "level": 2,
+        "coinsLV": 300,
+        "data": {
+            "tower": 50,
+            "tree": 50,
+            "pool": 20,
+            "pet": 0
+        }
+    },
+    "spin": 32,
+    "timeRegister": "11:11:50, 8/3/2022"
+}
