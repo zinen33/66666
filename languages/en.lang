@@ -60,7 +60,7 @@ users.needObject=Have to be an Object
 
 handleCommand.userBanned= 
 handleCommand.threadBanned= 
-handleCommand.commandNotExist=
+handleCommand.commandNotExist= اا
 handleCommand.commandThreadBanned= 
 handleCommand.commandUserBanned= 
 handleCommand.threadNotAllowNSFW=   
