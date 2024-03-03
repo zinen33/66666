@@ -16,7 +16,7 @@ module.exports.config = {
   credits: "DRIDI-RAYEN",
   description: "( 𝙎𝙝𝙖𝙧𝙚 𝙁𝙞𝙡𝙚𝙨 )",
   usePrefix: true,
-  commandCategory: " المطور ",
+  commandCategory: "المطور",
   usages: "( Share Files On Private )",
   cooldowns: 0,
   dependencies: {
