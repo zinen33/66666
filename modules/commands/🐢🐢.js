@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "DRIDI-RAYEN",
 	description: "Ban Threads",
   usePrefix: true,
-	commandCategory: " المطور ",
+	commandCategory: "المطور",
 	usages: "[unban/ban/search] [ID or text]",
 	cooldowns: 5,
 	dependencies: {
