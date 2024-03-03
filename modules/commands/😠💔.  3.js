@@ -7,7 +7,7 @@ module.exports = {
 	credits: "DRIDI-RAYEN",
 	description: "Ban or unblock users",
   usePrefix: true,
-	commandCategory: " المطور ",
+	commandCategory: "المطور",
 	usages: "[unban/ban/search] [ID or text]",
 	cooldowns: 5
   },
