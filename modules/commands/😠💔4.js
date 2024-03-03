@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 1,
 	credits: "DRIDI-RAYEN",
 	description: "",
-	commandCategory: " المطور ",
+	commandCategory: "المطور",
 		cooldowns: 5
 };
 
