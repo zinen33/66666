@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "عمر",
   description: "توب النجوم",
   usePrefix: true,
-  commandCategory: " الخدمات ",
+  commandCategory: "الخدمات",
   usages: "ا",
   cooldowns: 5
 };
