@@ -173,7 +173,7 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
      return api.sendMessage("‎[المالك:☞شامخ ☜ تستطيع مناداته سيد الاسياد .\n حساب  :الاسم: شامخ عليكم بقوه العلاقة: 🙂⁦✌️⁩مرتبط بي نجل.. .............رابط الملف الشخصي:https://www.facebook.com/profile.php?id=100092316091941\n- https://www.facebook.com/gemar.pro.52/\n", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@ンの人 コーラ") || (event.body.toLowerCase() == "ملاكي")) {
+   if ((event.body.toLowerCase() == "ملاك") || (event.body.toLowerCase() == "ملاكي")) {
      return api.sendMessage("شبيك لبيك ملاك الوحده بين يديك", threadID);
    };
 
@@ -218,8 +218,8 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
    };
 
    if ((event.body.toLowerCase() == "همم") || (event.body.toLowerCase() == "هممم") || (event.body.toLowerCase() == "همممم") || (event.body.toLowerCase() == "هممممم")) {
-     return api.sendMessage("️صدعتنب بصراحه", threadID);
-   };
+     return api.sendMessage("️ممكن افكر معك 🤧💔", threadID);
+   
 
    if ((event.body.toLowerCase() == "زپري") || (event.body.toLowerCase() == "اسكت احسن لك") || (event.body.toLowerCase() == "🙂 💢")) {
      return api.sendMessage("احا شامخ عصب انفدو بريشكم🐧😱.", threadID);
