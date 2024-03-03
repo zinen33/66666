@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mod by John Lester",
   description: "goibot",
-  commandCategory: "𝕊𝔸𝕐",
+  commandCategory: "عمر",
   usages: "noprefix",
   cooldowns: 5,
 };
@@ -120,10 +120,10 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
      return api.sendMessage("هل انا حبيبك لترسل لي هذا ؟", threadID);
    };
 
-  if ((event.body.toLowerCase() == "@شامخ عليكم بقوه") || (event.body.toLowerCase() == "يا شامخ")) {
-     return api.sendMessage("سيدك وتاج راسك👑💪😎", threadID);
+  if ((event.body.toLowerCase() == "@الفتى المتكبر") || (event.body.toLowerCase() == "يا شامخ")) {
+     return api.sendMessage("لاتزعجو مطوري حبيبي ❤😑🔫", threadID);
    };
-    if ((event.body.toLowerCase() == "@خالد المغربي") || (event.body.toLowerCase() == "خالد المغربي")) {
+    if ((event.body.toLowerCase() == "@شامخ عليكم بقوه") || (event.body.toLowerCase() == "خالد المغربي")) {
      return api.sendMessage("سيدك وتاج راسك😎👑", threadID);
    };
   
@@ -288,7 +288,7 @@ if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() =="ب�
      return api.sendMessage("نعم وات فاك مان", threadID);
    }; 
    if ((event.body.toLowerCase() == "هل تحبني ؟") || (event.body.toLowerCase() == "هل ملاك ؟")) {
-     return api.sendMessage("اجل <3", threadID);
+     return api.sendMessage("اجل", threadID);
    };
 
   
@@ -296,7 +296,7 @@ if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() =="ب�
      return api.sendMessage("من قال ذلك ?", threadID);
    };
   
-  if (event.body.indexOf("ملاك") == 0 || (event.body.indexOf("يوتا") == 0)) {
+  if (event.body.indexOf("ملاك") == 0 || (event.body.indexOf("ملاك") == 0)) {
     var msg = {
       body: `${rand}`
     }
