@@ -2,10 +2,10 @@ module.exports.config = {
 	name: "طرد",
 	version: "2.0.5",
 	hasPermssion: 0,
-	credits: "DRIDI-RAYEN",
+	credits: "الفتى-المتكبر",
 	description: "ازالة الاعضاء من المجموعة ☑️✨",
   usePrefix: true,
-	commandCategory: "مسوؤلي المجموعات",
+	commandCategory: "مسؤولي المجموعات",
 	usages: "/حضر (رد على رسالة شخصاو اعمل له اشارة)",
 	cooldowns: 5,
 	info: [
