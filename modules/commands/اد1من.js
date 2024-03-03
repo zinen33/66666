@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 2, 
   credits: "Mirai Team",
   description: "إدارة مشرف البوت",
-  commandCategory: "المالك",
+  commandCategory: "المطور",
   usages: "[قائمة/إضافة/إزالة] [آيدي المستخدم]",
     cooldowns: 5,
     dependencies: {
