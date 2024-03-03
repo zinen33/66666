@@ -5,7 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mod by John Lester",
   description: "goibot",
-  commandCategory: "‌‌🇾‌🇴‌🇹",
+  commandCategory: "‌‌المطور",
   usages: "noprefix",
   cooldowns: 5,
 };
