@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "DRIDI-RAYEN",
 	description: "ازالة الاعضاء من المجموعة ☑️✨",
   usePrefix: true,
-	commandCategory: "〘 ادمن_جروب 〙",
+	commandCategory: "مسوؤلي المجموعات",
 	usages: "/حضر (رد على رسالة شخصاو اعمل له اشارة)",
 	cooldowns: 5,
 	info: [
