@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "keen",
   version: '1.0.0',
-  commandCategory: ' النظام ',
+  commandCategory: 'النظام',
   hasPermission: 3,
   cooldowns: 5
 };
