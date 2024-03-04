@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "تخيل",
   version: "1.0.",
-  hasPermssion: 0,
+  hasPermssion: 1,
   credits: "عمر",
   description: "مدري",
   usePrefix: true,
