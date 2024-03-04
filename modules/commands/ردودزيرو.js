@@ -22,9 +22,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() == "أحبك")) {
      return api.sendMessage("هممم... الامر محرج دعني افكر في الامر😾 ", threadID)
    };
-  if ((event.body.toLowerCase() == "بنتي") || (event.body.toLowerCase() =="بيبي" && event.senderID == "100094409873389")) {
-     return api.sendMessage("نعم بـابــي❤🤧", threadID);
-   };
   if ((event.body.toLowerCase() == "احا") || (event.body.toLowerCase() == "احا🙆‍♂️")) {
      return api.sendMessage("ثواني😑🙂 كدا       احتين😹", threadID);
    };
