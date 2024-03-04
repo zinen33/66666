@@ -2,9 +2,9 @@ module.exports.config = {
     name: "برواولاد",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "𝐊𝐈𝐓𝐄 凧",
+    credits: "عمر",
     description: "random dp",
-    commandCategory: "ℙℍ𝕆𝕋𝕆",
+    commandCategory: "صور",
     usages: "send message",
     cooldowns: 5,
     dependencies: {
