@@ -19,19 +19,19 @@ try {
         const path = __dirname+`/cache/2.mp3`;
  let getPorn = (await axios.get(event.attachments[0].playableUrl,{ responseType:'arraybuffer'} )).data;
   fs.writeFileSync(path, Buffer.from(getPorn, "utf-8"));
-return api.sendMessage({body : `✅ تم التنزيل بوت سيستا في الخدمة ✅`, 
+return api.sendMessage({body : `✅ تم التنزيل بوت يـوتـا في الخدمة ✅`, 
     attachment: fs.createReadStream(path)}, event.threadID, () => fs.unlinkSync(path),event.messageID);
     }; 
   }catch {return api.sendMessage(`غير قادر على معالجة الطلب`,event.threadID,event.messageID)}
     try { 
       if(args[0] == 'فيديو'){
-            api.sendMessage(`اصبر !!!`, event.threadID, (err, info) =>
+            api.sendMessage(`𓆩انتضر من فضلك𓆪`, event.threadID, (err, info) =>
     setTimeout(() => {
         api.unsendMessage(info.messageID) } , 500),event.messageID);
             const path1 = __dirname+`/cache/1.mp4`;
  let getPorn = (await axios.get(event.attachments[0].playableUrl,{ responseType:'arraybuffer'} )).data;
   fs.writeFileSync(path1, Buffer.from(getPorn, "utf-8"));
-return api.sendMessage({body : `تم التحميل بواسطة بوت سيستا !`, 
+return api.sendMessage({body : `تم التحميل بواسطة بوت يـوتــا !`, 
     attachment: fs.createReadStream(path1)}, event.threadID, () => fs.unlinkSync(path1),event.messageID);
     }; 
   }catch {return api.sendMessage(`غير قادر على تحميل الفيديو , ربما اعدادات خصوصية الفيديو غير عامة`,event.threadID,event.messageID)}
