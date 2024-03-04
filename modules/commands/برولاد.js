@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 2,
     credits: "Kanichi",
     description: "",
-    commandCategory: "𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ",
+    commandCategory: "المطور",
     usages: "out [id]",
     cooldowns: 10,
 };
