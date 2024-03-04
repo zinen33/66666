@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "يوتا",
+    name: "سيم",
     version: "4.3.7",
     hasPermssion: 1,
     credits: "عمر", 
