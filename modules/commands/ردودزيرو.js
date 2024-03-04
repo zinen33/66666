@@ -5,8 +5,8 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mod by John Lester",
   description: "goibot",
-  commandCategory: "‌‌المطور",
-  usages: "noprefix",
+  commandCategory:"المطور"
+    usages: "noprefix",
   cooldowns: 5,
 };
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
@@ -17,11 +17,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["تحتاج شيئا  ؟ ","اسمي فخمه صح" , "اتركني لست في مزاج جيد ","ابنت عمر 🥹🌹", "هل تريد ان تعترف لي بشيء 🤭" , "اشتقت لك 🥰" , "انا في خدمتك" , "باكا" , "هففف ماذا مجددا " ,"عمتك🖤💃", "جامبري جامبري" , "ميمو الكيوته فخدمتك","يوتا في الساحه مفيش مساحه","عيون يوتا","شبيك لبيك يوتا بين يديك","يئبرني حبيب يوتا•-•♡"," انا تحت امرك يا سيد" , "لن تتعبو من مناداتي ؟ 😠👊🏻"];  var rand = tl[Math.floor(Math.random() * tl.length)]
+  var tl = ["تحتاج شيئا  ؟ ","اسمي فخمه صح" , "اتركني لست في مزاج جيد ","ابنت عمر 🥹🌹", "هل تريد ان تعترف لي بشيء 🤭" , "اشتقت لك 🥰" , "انا في خدمتك" , "باكا" , "هففف ماذا مجددا " ,"عمتك🖤💃", "جامبري جامبري" , "ميمو الكيوته فخدمتك" , " انا تحت امرك يا سيد" , "لن تتعبو من مناداتي ؟ 😠👊🏻"];  var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() == "أحبك")) {
      return api.sendMessage("هممم... الامر محرج دعني افكر في الامر😾 ", threadID)
    };
+  
   if ((event.body.toLowerCase() == "احا") || (event.body.toLowerCase() == "احا🙆‍♂️")) {
      return api.sendMessage("ثواني😑🙂 كدا       احتين😹", threadID);
    };
@@ -119,10 +120,10 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
      return api.sendMessage("هل انا حبيبك لترسل لي هذا ؟", threadID);
    };
 
-  if ((event.body.toLowerCase() == "@الفتى المتكبر") || (event.body.toLowerCase() == "يا شامخ")) {
-     return api.sendMessage("لاتزعجو مطوري حبيبي ❤😑🔫", threadID);
+  if ((event.body.toLowerCase() == "@شامخ عليكم بقوه") || (event.body.toLowerCase() == "يا شامخ")) {
+     return api.sendMessage("سيدك وتاج راسك👑💪😎", threadID);
    };
-    if ((event.body.toLowerCase() == "@شامخ عليكم بقوه") || (event.body.toLowerCase() == "خالد المغربي")) {
+    if ((event.body.toLowerCase() == "@خالد المغربي") || (event.body.toLowerCase() == "خالد المغربي")) {
      return api.sendMessage("سيدك وتاج راسك😎👑", threadID);
    };
   
@@ -172,7 +173,7 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
      return api.sendMessage("‎[المالك:☞شامخ ☜ تستطيع مناداته سيد الاسياد .\n حساب  :الاسم: شامخ عليكم بقوه العلاقة: 🙂⁦✌️⁩مرتبط بي نجل.. .............رابط الملف الشخصي:https://www.facebook.com/profile.php?id=100092316091941\n- https://www.facebook.com/gemar.pro.52/\n", threadID);
    };
 
-   if ((event.body.toLowerCase() == "ملاك") || (event.body.toLowerCase() == "ملاكي")) {
+   if ((event.body.toLowerCase() == "@ンの人 コーラ") || (event.body.toLowerCase() == "ملاكي")) {
      return api.sendMessage("شبيك لبيك ملاك الوحده بين يديك", threadID);
    };
 
@@ -217,8 +218,8 @@ if ((event.body.toLowerCase() == "ريحتو قويا بدها بندول") || (
    };
 
    if ((event.body.toLowerCase() == "همم") || (event.body.toLowerCase() == "هممم") || (event.body.toLowerCase() == "همممم") || (event.body.toLowerCase() == "هممممم")) {
-     return api.sendMessage("️ممكن افكر معك 🤧💔", threadID);
-   
+     return api.sendMessage("️صدعتنب بصراحه", threadID);
+   };
 
    if ((event.body.toLowerCase() == "زپري") || (event.body.toLowerCase() == "اسكت احسن لك") || (event.body.toLowerCase() == "🙂 💢")) {
      return api.sendMessage("احا شامخ عصب انفدو بريشكم🐧😱.", threadID);
@@ -287,7 +288,7 @@ if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() =="ب�
      return api.sendMessage("نعم وات فاك مان", threadID);
    }; 
    if ((event.body.toLowerCase() == "هل تحبني ؟") || (event.body.toLowerCase() == "هل ملاك ؟")) {
-     return api.sendMessage("اجل", threadID);
+     return api.sendMessage("اجل <3", threadID);
    };
 
   
